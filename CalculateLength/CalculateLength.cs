@@ -19,10 +19,10 @@ namespace LineComparison
         }
         public void CheckEquality(double line1, double line2)
         {
-            if (line1.Equals(line2))
-                Console.WriteLine("Both lines are equal");
-            else
-                Console.WriteLine("Lines are not equal");
+             if (line1.Equals(line2))
+                 Console.WriteLine("Both lines are equal");
+             else
+                 Console.WriteLine("Lines are not equal");
         }
         public void CompareLines(double line1, double line2)
         {
@@ -34,4 +34,4 @@ namespace LineComparison
                 Console.WriteLine("Line1 is Less than Line2 ");
         }
     }
-}
+} 
